@@ -1,0 +1,9 @@
+{
+  "name": "inventory-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "mkdir dist && cp -r public/* dist/ && cp src/* dist/src/",
+    "serve": "npx serve dist"
+  }
+}
